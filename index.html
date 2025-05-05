@@ -107,7 +107,7 @@
     <script>
         async function loadFiles() {
             try {
-                const response = await fetch('https://api.github.com/repos/<username>/<repo>/contents/');
+                const response = await fetch('https://api.github.com/repos/Project0earth0not0official0account/cdn.myserver-mystic.pp.ua/contents/');
                 if (!response.ok) throw new Error('Network response was not ok');
                 
                 const files = await response.json();
