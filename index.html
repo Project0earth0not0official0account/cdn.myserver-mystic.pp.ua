@@ -1,0 +1,15 @@
+---
+title: Index of /
+layout: default
+---
+
+<h1>Index of /</h1>
+<hr>
+<ul>
+    {% for file in site.static_files %}
+    <li>
+        <a href="{{ file.path }}">{{ file.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
+<hr>
